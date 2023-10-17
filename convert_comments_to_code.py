@@ -1,4 +1,10 @@
-# write a function that counts from 1 to 10 and prints the numbers
+"""
+This is a comment
+"""
+
 def count_to_ten():
+    """Prints the numbers 1 through 10"""
+    for num in range(1, 11):
+        print(num)
 
 count_to_ten()
